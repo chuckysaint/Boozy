@@ -24,8 +24,10 @@ h1 {
 p{
   background-color: rgb(238, 130, 238);
 }
+
 p2{
   background-color: rgb(238, 130, 238)
+  padding-top: 30px;
 }
 
 form{
@@ -51,6 +53,10 @@ li {
 
   p {
     text-align: center;
+  }
+
+.footer{
+    padding-top: 30px;
   }
 
 
@@ -83,4 +89,15 @@ li {
         float: none;
         width: 100%;
     }
+}
+
+.recipeForm{
+  padding-top: 40px;
+}
+.submittitle{
+  padding-top: 30px;
+}
+.footer{
+  padding-top: 40px;
+text-align: center;
 }

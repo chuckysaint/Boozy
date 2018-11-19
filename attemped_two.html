@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" type="text/css" href="attempt_two.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -9,7 +10,7 @@
 
     <h1><bold><em>B</em>oozy</bold></h1>
     <ul>
-      <li><a href="#">Student Recipies</a></li>
+      <li><a href="drinking_game/drinking_games.html">Student Recipies</a></li>
       <li><a href="#">Pubs</a></li>
       <li><a href="#">Boozy Deals</a></li>
       <li><a href="#">Drinking Games</a></li>
@@ -33,8 +34,10 @@
       </div>
 
 <!--- submit their own recipies --->
+<form class="submittitle">
 <p2>Submit Your Own Boozy Ideas!</p2>
-      <form>
+</form>
+      <form class="recipeForm">
         Boozy Name:<br>
         <input type="text" name="boozyname" value="..."><br>
         Recipe:<br>
@@ -43,7 +46,7 @@
       </form>
 
 <div>
-  <div class="footer">
+  <form class="footer">
     <div id='social-buttons'>
       <button class='btn-twitter'>Twitter</button>
       <button class='btn-facebook'>Facebook</button>
