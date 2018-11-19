@@ -1,38 +1,12 @@
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" type="text/css" href="attempt_two.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-  <style>
-  header {
-    text-align: center;
-    color: pink;
-  }
-  a {
-    color: black;
-  }
-  h1 {
-    font-size: 70px;
-    color: pink;
-  }
-  img {
-    margin: 40px 0px 0px 0px;
-    border: 7px solid white;
-    border-radius: 20px;
-  }
-   ul {
-    padding: 10px;
-    background: pink;
-  }
-  li {
-    display: inline;
-    padding: 0px 20px 0px 20px 0px 20px;
-    color: white;
-  }
-  </style>
-</head>
+
 <body>
-  <body style="background-color:black;">
   <header>
+
     <h1><bold><em>B</em>oozy</bold></h1>
     <ul>
       <li><a href="#">Student Recipies</a></li>
@@ -41,9 +15,44 @@
       <li><a href="#">Drinking Games</a></li>
     </ul>
 
-      <p style="font-family: courier;"> This Website is Dedicated to All the Boozy Students Out There! </italics></p>
+<div class="container-fluid">
+      <p style="font-family: courier;"><bold> This Website is Dedicated to All the Boozy Students Out There!</bold></p>
+</div>
+
+
+<div>
+  <p style="font-family: courier;"> Click on The Different Bottles to Find a Quick and Easy Recipe!</p>
     <img src="https://us.123rf.com/450wm/microone/microone1608/microone160800061/60996422-alcohol-drink-bottles-types-of-alcohol-outline-bottles-set-of-icons-bottles-vector-illustration.jpg?ver=6"alt="outline of alcohol" width="450" height="450">
 
+<!--- cant get this shit to work, how do you find image coordinates??? !--->
+  <map name="boozy recipies">
+      <area shape="circle" coords="34,44,444" alt="booze" href="computer.htm">
+      <area shape="circle" coords="20,472,33" alt="booze" href="phone.htm">
+      <area shape="circle" coords="437,30,44" alt="booze" href="coffee.htm">
+    </map>
+      </div>
 
-  </header>
+<!--- submit their own recipies --->
+<p2>Submit Your Own Boozy Ideas!</p2>
+      <form>
+        Boozy Name:<br>
+        <input type="text" name="boozyname" value="..."><br>
+        Recipe:<br>
+        <input type="text" name="recipe" value="..."><br><br>
+        <input type="submit" value="Submit" onclick="alert('Thanks For Your Boozy Suggestion!')">
+      </form>
+
+<div>
+  <div class="footer">
+    <div id='social-buttons'>
+      <button class='btn-twitter'>Twitter</button>
+      <button class='btn-facebook'>Facebook</button>
+      <button class='btn-pinterest'>Pinterest</button>
+    </div>
+  </div>
+
 </body>
+  </header>
+  <head/>
+</body>
+</html>
