@@ -60,10 +60,17 @@ li {
   }
 
 
-  /* Change color on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+a:link, a:visited {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
 }
 
 /* Right column */
